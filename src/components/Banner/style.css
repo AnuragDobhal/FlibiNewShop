@@ -1,0 +1,48 @@
+.banner {
+  padding-top: 180px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-color: #21262d;
+  background-image: linear-gradient(to bottom right, #121212, #3d4a5d);
+}
+
+.banner > div > div {
+  align-items: center;
+}
+
+.banner .brand {
+  display: flex;
+  align-items: center;
+}
+
+.banner .brand img {
+  width: 100%;
+}
+
+.banner .title {
+  font-size: 45px;
+  margin-bottom: 20px;
+  font-family: "Optima";
+  color: #ffffff;
+}
+
+.banner a.shopping-button {
+  color: #000000;
+  background-color: #3567f0;
+}
+.banner a.shopping-button:hover {
+  color: #ffffff;
+  background-color: #134ff5;;
+}
+.banner_img{
+  height: 350px;
+  width: 100%;
+}
+
+@media (min-width: 800px) {
+  .banner .title {
+    font-size: 65px;
+  }
+}
